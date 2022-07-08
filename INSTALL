@@ -1,0 +1,8 @@
+compiling from source
++====================+
+Mircy relies on the ncurses library, make sure you have it installed before attempting to compile. Then simply call "make", and "make install"
+
+`make`
+`make install`
+
+This will install Mircy in /usr/local/bin
