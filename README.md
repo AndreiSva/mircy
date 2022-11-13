@@ -4,7 +4,7 @@ A very minimalistic (and only sort of functional) curses-based IRC client.
 
 ## Building & Running
 
-To build mircy you'll need a working installation of meson and ninja. You can generate the build files by running `meson build --release` and then `ninja -C build'. This will build mircy inside the `./build` directory.
+To build mircy you'll need a working installation of meson and ninja. You can generate the build files by running `meson build --release` and then `ninja -C build`. This will build mircy inside the `./build` directory.
 
 ## Caveats
 
