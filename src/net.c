@@ -15,6 +15,13 @@
 #include "../include/messenger.h"
 #include "../include/helpers.h"
 
+/*
+* This is the file that is most likely to cause problems on systems
+* other than OpenBSD, I have not tested the portability of the functions
+* used here.
+*/
+
+
 FILE* rv;
 
 void mircy_init_net_connection(sessioninfo* info) {
