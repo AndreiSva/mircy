@@ -49,7 +49,7 @@ void mircy_draw_screen(screeninfo* info, messagequeue* messages) {
                 i -= display_message_length / info->screen_sizex;
             }
             
-            mvprintw(i, 0, display_message);
+            mvprintw(i, 0, "%s", display_message);
             message_index--;
         } else {
             break; 
